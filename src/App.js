@@ -24,6 +24,10 @@ const People = styled.div`
 		p {
 			line-height: 1.5rem;
 		}
+		@media only screen and (max-width: 600px) {
+			max-width: calc(100% - 5px);
+			flex-basis: calc(100% - 20px); 	
+    	}
 	}
 `;
 
