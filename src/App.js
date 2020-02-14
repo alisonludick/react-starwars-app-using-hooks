@@ -25,12 +25,12 @@ const People = styled.div`
 			line-height: 1.5rem;
 		}
 		/* for tablets */
-		@media only screen and (min-width: 756px) and (max-width: 1024px) {
+		@media only screen and (min-width: 421px) and (max-width: 1024px) {
 			max-width: calc(50% - 5px);
 			flex-basis: calc(50% - 20px); 	
     	}
 		/* for mobile phones */
-		@media only screen and (max-width: 755px) {
+		@media only screen and (max-width: 420px) {
 			max-width: calc(100% - 5px);
 			flex-basis: calc(100% - 20px); 	
     	}
