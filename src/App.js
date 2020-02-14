@@ -24,7 +24,13 @@ const People = styled.div`
 		p {
 			line-height: 1.5rem;
 		}
-		@media only screen and (max-width: 600px) {
+		/* for tablets */
+		@media only screen and (min-width: 768px) and (max-width: 1024px) {
+			max-width: calc(50% - 5px);
+			flex-basis: calc(50% - 20px); 	
+    	}
+		/* for mobile phones */
+		@media only screen and (max-width: 767px) {
 			max-width: calc(100% - 5px);
 			flex-basis: calc(100% - 20px); 	
     	}
